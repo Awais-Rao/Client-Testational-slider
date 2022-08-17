@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #2196f3;
+}
+
+    /* /// Cahange width to Suitabble width and uncomment the margin attributes */
+
+section{
+    min-height: 100vh;
+    /* margin-left: auto;
+    margin-right: auto;*/
+    width: 100%; 
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2196f3;
+    overflow: hidden;
+}
+
+
+    /* ///Change margin or width to adjust the width of slider or Read above Hints/ Instructions*/
+
+.swiper-container{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* margin-left: 20px;
+    margin-right: 20px; */
+    
+    overflow: hidden;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 320px;
+   background: #e3f0fa;
+   border-radius: 10px;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+    filter: blur(2px);
+  }
+  .swiper-slide-active{
+    filter: blur(0px);
+    background: #fff;
+    
+    transition: 0.2s !important;
+  }
+
+  .testimonialBox{
+    position: relative;
+    width: 100%;
+    padding: 40px;
+    padding-top: 90px;
+    color: #999;
+  }
+  .testimonialBox .quote{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    opacity: 0.2;
+  }
+  .content{
+    text-align: center;
+  }
+  .testimonialBox .details{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .testimonialBox .details .imgBx{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+  }
+  .testimonialBox .details .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .testimonialBox .details h3{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.1em;
+    color: #2196f3;
+  }
+  .testimonialBox .details h3 span{
+    font-size: 12px;
+    color: #666;
+  }
+  .swiper-3d .swiper-slide-shadow-left ,
+  .swiper-3d .swiper-slide-shadow-right {
+    background-image: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+  <style>
+        html,
+        body {
+            position: relative;
+            height: 100%;
+        }
+
+        body {
+            background: #eee;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+
+        .swiper {
+            width: 100%;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        .swiper-slide {
+            background-position: center;
+            background-size: cover;
+            width: 300px;
+            height: 300px;
+        }
+
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+        }
+    </style> */
